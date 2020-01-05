@@ -83,8 +83,9 @@ Parameters:
 * θ1: Angles of the first section of the robot.
 * θ3: Angles of the last section of the robot.
 * d2: Lenght of the first section of the robot.
+<image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=500 />
 
 Returns:
 * Jacobi matrix
 
-<image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=500 />
+
