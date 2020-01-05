@@ -87,3 +87,4 @@ Parameters:
 Returns:
 * Jacobi matrix
 
+<image src="Robotic/Photos/jacobiMatrix.PNG" height=150 />
