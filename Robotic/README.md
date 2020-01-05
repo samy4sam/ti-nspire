@@ -13,7 +13,7 @@
 ***
 ## Functions:
 ### robotic/atan2(y,x)
-Function  to calculate the arctan2. See [Wikipedia](https://de.wikipedia.org/wiki/Arctan2)  
+Function to calculate the arctan2. See [Wikipedia](https://de.wikipedia.org/wiki/Arctan2)  
 
 Parameters:  
 * y: sinus  
@@ -25,7 +25,7 @@ Returns:
 Note: works for rad and deg. Calculater settings are crucial.  
 
 ### robotic/rotx(θ)
-Function to get  getting the rotation matrix around the x-axis.  
+Function to get the rotation matrix around the x-axis.  
 
 Parameters:  
 *  θ [rad]: Angle around the x-axis.  
@@ -34,7 +34,7 @@ Returns:
 * rotation matrix (4x4).
 
 ### robotic/roty(θ)
-Function to get getting the rotation matrix around the y-axis.  
+Function to get the rotation matrix around the y-axis.  
 
 Parameters:  
 *  θ [rad]: Angle around the y-axis.  
