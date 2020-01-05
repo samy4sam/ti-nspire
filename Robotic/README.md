@@ -87,4 +87,4 @@ Parameters:
 Returns:
 * Jacobi matrix
 
-<image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=150 />
+<image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=500 />
