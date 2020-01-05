@@ -79,9 +79,9 @@ Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm descri
 Parameters:
 * xe: Position in X-direction of the TCP.
 * ye: Position in Y-direction of the TCP.
-* Φe: Angles of the TCP.
-* θ1: Angles of the first section of the robot.
-* θ3: Angles of the last section of the robot.
+* Φe: Angle of the TCP.
+* θ1: Angle of the first section of the robot.
+* θ3: Angle of the last section of the robot.
 * d2: Lenght of the first section of the robot.
 <image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=500 />
 
