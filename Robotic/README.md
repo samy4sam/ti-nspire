@@ -1,5 +1,5 @@
 # Functions for the module Robotik
-### Get Started:
+## Get Started:
 1. [Download](https://github.com/samy4sam/ti-nspire/raw/master/Robotic/robotic.tns) the robotic.tns file.
 2. Open the robotic.tns file with the TI-Nspire™ CX CAS Student Software.
 3. Connect your TI-Nspire™ CX CAS over the USB cable with your PC.
@@ -10,3 +10,13 @@
 8. Press the "doc" button.
 9. Update the libraries by pressing the number 6.
 10. To access the new functions, press the library button, the number 6 and search for "robotic".
+***
+## Functions:
+### robotic/atan2(y,x)
+y: sinus
+x: cosinus
+returns: Related angle θ
+note: works for rad and deg. Calculater settings are crucial.
+
+### robotic/rotx(θ)
+θ:
