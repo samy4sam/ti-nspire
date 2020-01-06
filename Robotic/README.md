@@ -22,13 +22,13 @@ Parameters:
 Returns: 
 * Related angle θ  
 
-Note: works for rad and deg. Calculater settings are crucial.  
+Note: Works for rad and deg. Calculater settings are crucial.  
 
 ### robotic/rotx(θ)
 Function to get the rotation matrix around the x-axis.  
 
 Parameters:  
-*  θ [rad]: Angle around the x-axis.  
+*  θ: Angle around the x-axis. Works for rad and deg. Calculater settings are crucial.     
 
 Returns: 
 * rotation matrix (4x4).
@@ -37,7 +37,7 @@ Returns:
 Function to get the rotation matrix around the y-axis.  
 
 Parameters:  
-*  θ [rad]: Angle around the y-axis.  
+*  θ: Angle around the y-axis. Works for rad and deg. Calculater settings are crucial.     
 
 Returns: 
 * rotation matrix (4x4).
@@ -46,7 +46,7 @@ Returns:
 Function to get the rotation matrix around the z-axis.  
 
 Parameters:  
-*  θ [rad]: Angle around the z-axis. 
+*  θ: Angle around the z-axis. Works for rad and deg. Calculater settings are crucial.     
 
 Returns: 
 * rotation matrix (4x4).
