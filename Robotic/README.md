@@ -12,7 +12,6 @@
 10. To access the new functions, press the library button, the number 6 and search for "robotic".
 
 [Download](https://github.com/samy4sam/ti-nspire/raw/master/Robotic/RoboticDoku.pdf) this function documentation as pdf.
-[test](https://github.com/samy4sam/ti-nspire/edit/master/Robotic/README.md)
 ***
 ## Functions:
 ### robotic/atan2(y,x)
