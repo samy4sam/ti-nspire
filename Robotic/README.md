@@ -60,9 +60,9 @@ Parameters:
 * r (3x3): Rotation matrix.
 
 Returns:
-* β [rad]
-* α [rad]
-* γ[rad]
+* β
+* α
+* γ
 ##  
 ### robotic/zyzangles(r)
 Function to calculate the retransformation angles according to the Z-Y-Z Euler Convention.
@@ -71,17 +71,17 @@ Parameters:
 * r (3x3): Rotation matrix.
 
 Returns:   
-* β [rad]
-* α [rad]
-* γ[rad]
+* β
+* α
+* γ
 ##  
 ### robotic/xyzmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the X-Y-Z Roll-Gier-Nick Convention.
 
 Parameters:
-* α [rad]
-* β [rad]
-* γ[rad]
+* α
+* β
+* γ
 
 Returns:   
 * r (3x3): Rotation matrix.
@@ -90,9 +90,9 @@ Returns:
 Function to calculate the retransformation matrix according to the Z-Y-X Euler Convention.
 
 Parameters:
-* α [rad]
-* β [rad]
-* γ[rad]
+* α
+* β
+* γ
 
 Returns:   
 * r (3x3): Rotation matrix.
@@ -107,6 +107,16 @@ Parameters:
 
 Returns:   
 * r (3x3): Rotation matrix.
+##  
+### robotic/dhttransform(dh)
+Function returns all transformation matrices for the intermediate steps and at the end the total transformation matrix.
+
+Parameters:
+* dh (nx4): The Denavit-Hartenberg matrix is entered according to the following convention:
+<image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/dhtMatrix.png?raw=true"/>
+
+Returns:   
+* transformation matrices
 ##  
 ### robotic/jacobi(xe,ye,Φe,θ1,θ3,d2)
 Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm describes the mapping of joint velocities to the linear velocity of the TCP and the temporal changes of the orientation of the end-effector.  
