@@ -4,14 +4,14 @@
 2. Open the robotic.tns file with the TI-Nspire™ CX CAS Student Software.
 3. Connect your TI-Nspire™ CX CAS over the USB cable with your PC.
 4. In the software go to File/Save to Handheld...
-5. Double click on your TI-Nspire™ CX CAS in the appeared window. 
+5. Double click on your TI-Nspire™ CX CAS in the appeared window.
 6. Go to "MyLib", rename the file to "robotic" and press Save.
 7. Open a new Calculator page on your TI-Nspire™ CX CAS.
 8. Press the "doc" button.
 9. Update the libraries by pressing the number 6.
 10. To access the new functions, press the library button, the number 6 and search for "robotic".
 
-[Download](https://github.com/samy4sam/ti-nspire/raw/master/Robotic/RoboticDoku.pdf) this function documentation as pdf.
+[Download](https://github.com/samy4sam/ti-nspire/raw/master/Robotic/README.pdf) this function documentation as pdf.
 ***
 ## Functions:
 ### robotic/atan2(y,x)
@@ -21,7 +21,7 @@ Parameters:
 * y: sinus  
 * x: cosinus  
 
-Returns: 
+Returns:
 * Related angle θ  
 
 Note: Works for rad and deg. Calculater settings are crucial.  
@@ -32,7 +32,7 @@ Function to get the rotation matrix around the x-axis.
 Parameters:  
 *  θ: Angle around the x-axis. Works for rad and deg. Calculater settings are crucial.     
 
-Returns: 
+Returns:
 * rotation matrix (4x4).
 
 ### robotic/roty(θ)
@@ -41,7 +41,7 @@ Function to get the rotation matrix around the y-axis.
 Parameters:  
 *  θ: Angle around the y-axis. Works for rad and deg. Calculater settings are crucial.     
 
-Returns: 
+Returns:
 * rotation matrix (4x4).
 
 ### robotic/rotz(θ)
@@ -50,16 +50,16 @@ Function to get the rotation matrix around the z-axis.
 Parameters:  
 *  θ: Angle around the z-axis. Works for rad and deg. Calculater settings are crucial.     
 
-Returns: 
+Returns:
 * rotation matrix (4x4).
 
 ### robotic/xyzangles(r)
 Function to calculate the retransformation angles according to the X-Y-Z Roll-Gier-Nick Convention.
 
 Parameters:
-* r (3x3): Rotation matrix. 
+* r (3x3): Rotation matrix.
 
-Returns: 
+Returns:
 * β [rad]
 * α [rad]
 * γ[rad]
@@ -68,19 +68,19 @@ Returns:
 Function to calculate the retransformation angles according to the Z-Y-Z Euler Convention.
 
 Parameters:  
-* r (3x3): Rotation matrix. 
+* r (3x3): Rotation matrix.
 
 Returns:   
-* β [rad] 
-* α [rad] 
+* β [rad]
+* α [rad]
 * γ[rad]
 
 ### robotic/xyzmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the X-Y-Z Roll-Gier-Nick Convention.
 
 Parameters:
-* α [rad] 
-* β [rad] 
+* α [rad]
+* β [rad]
 * γ[rad]
 
 Returns:   
@@ -90,23 +90,23 @@ Returns:
 Function to calculate the retransformation matrix according to the Z-Y-X Euler Convention.
 
 Parameters:
-* α [rad] 
-* β [rad] 
+* α [rad]
+* β [rad]
 * γ[rad]
 
 Returns:   
-* r (3x3): Rotation matrix. 
+* r (3x3): Rotation matrix.
 
 ### robotic/zyzmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the Z-Y-Z Euler Convention.
 
 Parameters:
-* α [rad] 
-* β [rad] 
+* α [rad]
+* β [rad]
 * γ[rad]
 
 Returns:   
-* r (3x3): Rotation matrix. 
+* r (3x3): Rotation matrix.
 
 ### robotic/jacobi(xe,ye,Φe,θ1,θ3,d2)
 Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm describes the mapping of joint velocities to the linear velocity of the TCP and the temporal changes of the orientation of the end-effector.  
@@ -122,5 +122,3 @@ Parameters:
 
 Returns:
 * Jacobi matrix
-
-
