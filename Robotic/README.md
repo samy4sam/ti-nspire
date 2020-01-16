@@ -121,7 +121,7 @@ Returns:
 ### robotic/jacobi(xe,ye,Φe,θ1,θ3,d2)
 Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm describes the mapping of joint velocities to the linear velocity of the TCP and the temporal changes of the orientation of the end-effector.  
 
-Parameters:
+Parameters: [rad]
 * xe: Position in X-direction of the TCP.
 * ye: Position in Y-direction of the TCP.
 * Φe: Angle of the TCP.
