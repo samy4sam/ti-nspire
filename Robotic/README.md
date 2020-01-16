@@ -10,6 +10,8 @@
 8. Press the "doc" button.
 9. Update the libraries by pressing the number 6.
 10. To access the new functions, press the library button, the number 6 and search for "robotic".
+
+[Download](https://github.com/samy4sam/ti-nspire/raw/master/Robotic/RoboticDoku.pdf) this function documentation as pdf.
 ***
 ## Functions:
 ### robotic/atan2(y,x)
