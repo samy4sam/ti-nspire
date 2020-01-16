@@ -25,7 +25,7 @@ Returns:
 * Related angle θ  
 
 Note: Works for rad and deg. Calculater settings are crucial.  
-
+##  
 ### robotic/rotx(θ)
 Function to get the rotation matrix around the x-axis.  
 
@@ -34,7 +34,7 @@ Parameters:
 
 Returns:
 * rotation matrix (4x4).
-
+##  
 ### robotic/roty(θ)
 Function to get the rotation matrix around the y-axis.  
 
@@ -43,7 +43,7 @@ Parameters:
 
 Returns:
 * rotation matrix (4x4).
-
+##  
 ### robotic/rotz(θ)
 Function to get the rotation matrix around the z-axis.  
 
@@ -52,7 +52,7 @@ Parameters:
 
 Returns:
 * rotation matrix (4x4).
-
+##  
 ### robotic/xyzangles(r)
 Function to calculate the retransformation angles according to the X-Y-Z Roll-Gier-Nick Convention.
 
@@ -63,7 +63,7 @@ Returns:
 * β [rad]
 * α [rad]
 * γ[rad]
-
+##  
 ### robotic/zyzangles(r)
 Function to calculate the retransformation angles according to the Z-Y-Z Euler Convention.
 
@@ -74,7 +74,7 @@ Returns:
 * β [rad]
 * α [rad]
 * γ[rad]
-
+##  
 ### robotic/xyzmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the X-Y-Z Roll-Gier-Nick Convention.
 
@@ -85,7 +85,7 @@ Parameters:
 
 Returns:   
 * r (3x3): Rotation matrix.
-
+##  
 ### robotic/zyxmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the Z-Y-X Euler Convention.
 
@@ -96,7 +96,7 @@ Parameters:
 
 Returns:   
 * r (3x3): Rotation matrix.
-
+##  
 ### robotic/zyzmatrix(α, β, γ)
 Function to calculate the retransformation matrix according to the Z-Y-Z Euler Convention.
 
@@ -107,7 +107,7 @@ Parameters:
 
 Returns:   
 * r (3x3): Rotation matrix.
-
+##  
 ### robotic/jacobi(xe,ye,Φe,θ1,θ3,d2)
 Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm describes the mapping of joint velocities to the linear velocity of the TCP and the temporal changes of the orientation of the end-effector.  
 
