@@ -145,7 +145,7 @@ Parameters: [rad]
 * Φe: Angle of the TCP.
 * θ1: Angle of the first section of the robot.
 * θ3: Angle of the last section of the robot.
-* d2: Lenght of the first section of the robot.
+* d2: Length of the first section of the robot.
 <image src="https://github.com/samy4sam/ti-nspire/blob/master/Robotic/Photos/jacobiMatrix.PNG?raw=true" height=500 />
 
 Returns:
