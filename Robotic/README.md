@@ -118,6 +118,24 @@ Parameters:
 Returns:   
 * transformation matrices
 ##  
+### robotic/trapezbahn(s1, s2, v1, v2, a1, a2)
+Function returns parameters for a fully synchronous PTP motion with trapezoidal velocity profile.
+
+Parameters:
+* s1: distance 1
+* s2: distance 2
+* v1: speed 1
+* v2: speed 2
+* a1: acceleration 1
+* a2: acceleration 2
+
+Returns:   
+* acceleration time
+* constant travel time
+* total time
+* synchronized acceleration  
+* synchronized speed
+##  
 ### robotic/jacobi(xe,ye,Φe,θ1,θ3,d2)
 Function to calculate the Jacobi matrix. The Jacobi matrix of a robot arm describes the mapping of joint velocities to the linear velocity of the TCP and the temporal changes of the orientation of the end-effector.  
 
